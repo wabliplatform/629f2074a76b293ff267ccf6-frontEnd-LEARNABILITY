@@ -14,6 +14,6 @@ jobs:
           password: ${{ secrets.WABLI_SERVER_SSH_PASSWORD }}
           port: ${{ secrets.WABLI_SERVER_SSH_PORT }}
           script: >-
-            ./wabli-applications/deploy.sh -b main -d local-host -r
+            ./wabli-applications/deploy.sh -b main -d laughing-invention -r
             https://github.com/wabliplatform/629f2074a76b293ff267ccf6-frontEnd-LEARNABILITY.git
-            -f 629f2074a76b293ff267ccf6-frontEnd-LEARNABILITY -p 8080
+            -f 629f2074a76b293ff267ccf6-frontEnd-LEARNABILITY -p 3100
